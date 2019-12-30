@@ -1,2 +1,10 @@
 rootProject.name = "mastering-kotlin"
 include("chapter2")
+include("chapter4")
+include("chapter5")
+include("chapter7")
+include("chapter8")
+include("chapter9")
+include("chapter9")
+include("chapter10")
+include("chapter11")

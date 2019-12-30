@@ -1,3 +1,7 @@
+plugins {
+  application
+}
+
 tasks {
     compileKotlin {
         kotlinOptions.jvmTarget = "1.8"
@@ -5,4 +9,9 @@ tasks {
     compileTestKotlin {
         kotlinOptions.jvmTarget = "1.8"
     }
+}
+
+
+application {
+  mainClassName = "PersonUser"
 }
